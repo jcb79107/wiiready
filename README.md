@@ -25,6 +25,8 @@ You handle the Wii remote; your agent handles the supported computer work and ex
 - Checking and preparing local homebrew files, with approval and no overwrites.
 - Resuming setup checkpoints, organizing raw GameCube files and joining CleanRip parts.
 
+**The agent playbook is the core interface.** It gives one console action, explains what to expect, and waits for your observation. Ambiguous replies or unexpected screens mean stop and clarify, not continue. [See a short example](docs/playbook.md#example-stop-instead-of-assuming).
+
 Console steps stay manual. Wii format conversion uses a guided external tool.
 File preparation works on Windows, macOS and Linux with original-Wii selection; other models follow their
 own guide. See [support details](docs/usage.md#support-status) and [safety](SECURITY.md).
