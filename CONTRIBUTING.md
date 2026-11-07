@@ -23,6 +23,13 @@ No dependency installation or physical media is needed. Do not execute unfamilia
 - Clarify the setup instructions or add a verified authoritative link.
 - Propose a sanitized hardware observation format before gathering real reports.
 
+## Guide and conversation changes
+
+Review [guide drift](docs/guide-review.md) and run the relevant [agent scenarios](docs/agent-scenarios.md)
+when editing the playbook, routing or safety instructions. These scenarios are a manual evaluation rubric,
+not automated model tests. Report which were actually exercised and with what agent; do not count Python
+unit tests, a written example or static document review as model-behavior or hardware evidence.
+
 ## Before a pull request
 
 Describe the problem, resulting behavior and how you checked it. Keep scope small. Add meaningful regression tests for behavior changes, especially failure paths. Preserve strict profile validation and the read-only default. Update docs when command behavior changes.

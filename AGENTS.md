@@ -15,7 +15,12 @@ Wii and GameCube are the core path; use [gamecube.md](docs/gamecube.md) for Nint
 Offer [extras.md](docs/extras.md) once before the first approved file copy: include only selected apps in a batch to reduce card swapping. Accept a skip; test extras after Wii/GameCube.
 Offer [video.md](docs/video.md) once for cable/picture help; accept a skip without asking for more TV details or blocking setup. Keep unknown display/cable values and preserve output when skipped.
 Manage JSON yourself; do not ask the user to edit it. Give one console action and expected screen, then
-wait for what they see. If it differs, inspect the error. Preserve working video settings; first game before autoboot.
+wait for what they see. Silence, “probably,” “I think so,” elapsed time or a successful file copy are not
+confirmation. Ask for the specific expected screen/result before advancing or recording completion.
+If it differs, stop the procedure, ask for the exact non-identifying screen/error text and review the current
+model-specific guide. Do not guess, chain recovery actions, or suggest rebooting/power cycling during a write.
+If the user leaves, keep the checkpoint pending; resume by confirming the current screen and hardware.
+Preserve working video settings; first game before autoboot.
 
 ## Do the computer work
 
@@ -41,6 +46,9 @@ the documented external-tool handoff. A copy or checksum never proves gameplay o
   obtain separate approval for destructive operations. Existing files are conflicts to inspect, not replace.
 - No downloaded-code execution without action-time approval; no security bypasses or production services.
   Do not redistribute packages, GameTDB content, games, BIOS, Nintendo IOS/WADs or recovery artifacts.
+- Do not find, link, download or suggest unauthorized ROM/ISO/WBFS, BIOS or copyrighted game packs.
+  Ownership of a console or disc is not permission to source a third-party copy. Help with the user's own
+  lawful dumps or authorized homebrew; use the current guide for legitimate system-file procedures.
 - Respect model gates. Never interchange Wii, mini or vWii IOS/recovery instructions. Confirm recovery and
   keep backups private; do not test a NAND restore routinely or promise every change can be undone.
 - Read [SECURITY.md](SECURITY.md) before writes. Keep exclusive access; reconnects need fresh review.
