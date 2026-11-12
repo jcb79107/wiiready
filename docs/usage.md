@@ -1,5 +1,28 @@
 # Usage
 
+- [Run the tools](#run-the-tools)
+- [Begin with your own setup](#begin-with-your-own-setup)
+- [Collect evidence](#collect-evidence)
+- [Inspect storage on macOS](#inspect-storage-on-macos)
+- [Choose a profile and plan](#choose-a-profile-and-plan)
+- [Resume checkpoints](#resume-checkpoints)
+- [Rehearse file preparation without media](#rehearse-file-preparation-without-media)
+- [When a command stops](#when-a-command-stops)
+- [Controlled file preparation](#controlled-file-preparation)
+- [Prepare Nintendont from local files](#prepare-nintendont-from-local-files)
+- [Resume the guided journey across computers](#resume-the-guided-journey-across-computers)
+- [Prepare Priiloader recovery files](#prepare-priiloader-recovery-files)
+- [Prepare Homebrew Channel, backup and cIOS tools](#prepare-homebrew-channel-backup-and-cios-tools)
+- [Partially check a private Wilbrand ZIP](#partially-check-a-private-wilbrand-zip)
+- [Choose the cIOS acquisition route when needed](#choose-the-cios-acquisition-route-when-needed)
+- [Check a local GameCube dump before first launch](#check-a-local-gamecube-dump-before-first-launch)
+- [Copy your own raw GameCube files](#copy-your-own-raw-gamecube-files)
+- [Prepare CleanRip for your own discs](#prepare-cleanrip-for-your-own-discs)
+- [Get a Wii dump ready for its first launch](#get-a-wii-dump-ready-for-its-first-launch)
+- [Support status](#support-status)
+- [Renamed commands](#renamed-commands)
+- [Windows storage and preparation](#windows-storage-and-preparation)
+
 ## Run the tools
 
 Use Python 3.10+ from the repository root. No pip dependencies or virtual environment needed.
